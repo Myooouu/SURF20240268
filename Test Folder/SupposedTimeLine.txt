@@ -1,0 +1,14 @@
+This is the proposed time line, here suppose have 8 weeks
+
+week1:Read journal and select reasonable aspect,(try to come up with the idea)
+week2:Idea,data set
+
+The following three part is of great importance
+week3:Theory Method
+week4:Numerical model
+week5:Experiment
+
+
+week6:Result analysis/Discussion,Title,Abstract,Introduction
+week7:Conclusion,references,revise
+week8:revise and try to make publication(EI conference,stable Engineering Index searching required)
