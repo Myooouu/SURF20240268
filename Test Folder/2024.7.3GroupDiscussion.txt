@@ -1,0 +1,7 @@
+1.Determine the goal of research
+2.Negotiate a fixed group meeting rate
+3.Workflow(github and git)
+    Github repository
+    Github tutorial
+
+Question: The SURF project is about Music, is speech possible to be researched?
