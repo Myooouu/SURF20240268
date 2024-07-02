@@ -1,5 +1,5 @@
 # This is the repository for SURF20240268
-
+Used to trace the work progress of SURF project.
 ## To check how to use github and git
 
 https://www.liaoxuefeng.com/wiki/896043488029600/900937935629664    (CH)
