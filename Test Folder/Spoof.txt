@@ -16,7 +16,8 @@ VCTK,LibriSpeech,VoxCeleb,LJspeech,AISHELL
 
 
 Two child aspects: logical access and physical access
-LA:Xin Wang and Junichi Yamagishi. 2022. A practical guide to logical access voice presentation attack detection. In Frontiers in Fake Media Generation and Detection. Springer, 169–214
+LA:
+Xin Wang and Junichi Yamagishi. 2022. A practical guide to logical access voice presentation attack detection. In Frontiers in Fake Media Generation and Detection. Springer, 169–214
 PA:
 Main problem for this region: generalize(I do think that is not for our part)
 SOTA model:
