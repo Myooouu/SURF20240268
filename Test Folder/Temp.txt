@@ -1,0 +1,6 @@
+python segment.py {dataset_directory} {timestamp_file} {output_directory}
+python segment.py E:\XJTLU\SURFData\ONIKU_KURUMI_UTAGOE_DB\ONIKU_KURUMI_UTAGOE_DB E:\XJTLU\SURF20240268\CtrSVDD_Utils-main\timestamps\oniku_timestamps_train.txt D:\EdgeDownload\TempTrain
+python segment.py E:\XJTLU\SURFData\jvs_music_ver1\jvs_music_ver1 E:\XJTLU\SURF20240268\CtrSVDD_Utils-main\timestamps\jvs_timestamps_train.txt D:\EdgeDownload\TempTrain
+python segment.py E:\XJTLU\SURFData\jvs_music_ver1\jvs_music_ver1 E:\XJTLU\SURF20240268\CtrSVDD_Utils-main\timestamps\jvs_timestamps_dev.txt D:\EdgeDownload\TempDev
+python segment.py E:\XJTLU\SURFData\kiritan_singing\kiritan_singing\wav E:\XJTLU\SURF20240268\CtrSVDD_Utils-main\timestamps\kiritan_timestamps_dev.txt D:\EdgeDownload\TempDev
+python segment.py E:\XJTLU\SURFData\OFUTON_P_UTAGOE_DB\OFUTON_P_UTAGOE_DB E:\XJTLU\SURF20240268\CtrSVDD_Utils-main\timestamps\ofuton_timestamps_train.txt D:\EdgeDownload\TempTrain
