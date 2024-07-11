@@ -1,0 +1,24 @@
+This is the proposed time line, here suppose have 8 weeks
+
+week1:Read journal and select reasonable aspect,(try to come up with the idea)
+week2:Idea,data set
+
+
+The following three part is of great importance
+week3:Theory Method     
+week4:Numerical model   (Learn something about digital signal processing if we can)
+week5:Experiment        (important part)
+Actually These three part is not all compulsory, just one or two of them is also acceptable.
+The main problem is that we need enough workload. And most EI conference paper only accept 5 pages of paper, to write all of these three could
+exceed this limitation and need more fees
+
+
+week6:Result analysis/Discussion,Title,Abstract,Introduction
+week7:Conclusion,references,revise
+week8:revise and try to make publication(EI conference,stable Engineering Index searching required)
+
+The website might useful:https://www.ais.cn/attendees?invite=BZ606  (No english version)
+
+Why choose Stable EI searching conference as goal?
+Though we are beginners in research region.
+At least I do think we need to made something at least in academic form, in another word, publishable way, and conference like this could be a good choice.

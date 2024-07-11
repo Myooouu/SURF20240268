@@ -1,0 +1,30 @@
+Aspect 1:
+Anti-spoofing (Detect fake speech)
+E.g. svc model which can generate fake Audio
+
+
+Open source data sets:
+1.Fully spoofed audio datasets:
+ASVspoof 2019 to 2021
+FakeorReal-orginal
+WaveFake
+Sample rate or any other info show in:Audio Anti-Spoofing Detection: A Survey (Table 1)
+2.Partially spoofed audio datasets.
+psynd,PartialSpoof,ADD 2022 and 2023, HAD
+3.Full real
+VCTK,LibriSpeech,VoxCeleb,LJspeech,AISHELL
+
+
+Two child aspects: logical access and physical access
+LA:
+Xin Wang and Junichi Yamagishi. 2022. A practical guide to logical access voice presentation attack detection. In Frontiers in Fake Media Generation and Detection. Springer, 169–214
+PA:
+Main problem for this region: generalize(I do think that is not for our part)
+SOTA model:
+Exsisting module:(Notice the Lisences)
+1.  https://github.com/clovaai/aasist
+From AASIST: Audio Anti-Spoofing Using Integrated Spectro-Temporal Graph Attention Networks
+2. https://github.com/eurecom-asp/RawGAT-ST-antispoofing
+3. https://github.com/eurecom-asp/pc-darts-anti-spoofing
+4. https://github.com/ghua-ac/end-to-end-synthetic-speech-detection
+And more

@@ -1,0 +1,14 @@
+1.Determine the goal of research
+2.Negotiate a fixed group meeting rate
+3.Workflow(github and git)
+    Github repository
+    Github tutorial
+
+Question: The SURF project has its name about Music, is speech possible to be researched?
+Question: If we choose to research about certain music type to detect, the problem is that we need to make
+datasets by ourself(Or try to find datasets much harder), and how to find SOTA model and SOTA result?
+
+
+
+Group Disscussion note:
+1.
