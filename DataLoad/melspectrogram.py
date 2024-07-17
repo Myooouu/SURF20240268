@@ -20,14 +20,16 @@ def personal_plot(x,y):
 def DrawMelSpectrogram(fileName):
     #注意如果文件名不加路径，则文件必须存在于python的工作目录中
     #fileName = 'E:\XJTLU\SURF20240268\DataLoad\CtrSVDD_0058_T_0066698.flac'
-    y,sr = librosa.load(fileName,sr=16000)
+    y,sr = librosa.load(fileName,sr=None)
     tmax = librosa.get_duration(y=y,sr=sr)
     tmax = int(tmax)
+    if tmax == 0:
+        return
     #这里只获取0-20秒的部分，这里也可以在上一步的load函数中令duration=20来实现
     tmin = 0
     t = np.linspace(tmin,tmax,(tmax-tmin)*sr)
     #personal_plot(t,y[tmin*sr:tmax*sr])
-    alpha = 0.97
+    alpha = 0.97        #FACTOR
     emphasized_y = np.append(y[tmin*sr],y[tmin*sr+1:tmax*sr]-alpha*y[tmin*sr:tmax*sr-1])
     n = int((tmax-tmin)*sr) #信号一共的sample数量
 
@@ -87,12 +89,12 @@ def DrawMelSpectrogram(fileName):
     SavedFileName = SavedFileName[1]
     SavedFileName = SavedFileName.rsplit('.',1)
     SavedFileName = SavedFileName[0]
-    plt.savefig(f"E:\XJTLU\SURFData\Trial\SampledHere\{SavedFileName}")
+    plt.savefig(f"D:\EdgeDownload\Sampled\DevSet\-bonafide\{SavedFileName}")
     plt.close()
 
 def get_files():
     NameList = []
-    for filepath,dirnames,filenames in os.walk(r'E:\XJTLU\SURFData\Trial\OriHere'):    #Path here
+    for filepath,dirnames,filenames in os.walk(r'D:\EdgeDownload\dev_set\dev_set\\-bonafide'):    #Path here
         for filename in filenames:
             temp = os.path.join(filepath,filename)
             NameList.append(f'{temp}')
